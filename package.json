@@ -1,0 +1,19 @@
+{
+  "name": "workstation-config",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "bluebird": "^3.5.1",
+    "commander": "^2.12.2",
+    "fs-extra": "^5.0.0",
+    "inquirer": "^4.0.1",
+    "lodash": "^4.17.4",
+    "workstation-config": "file:."
+  },
+  "bin": {
+    "wifi-nso": "./bin/wifi-nso.js",
+    "ethernet-nso": "./bin/ethernet-nso.js",
+    "config-nso": "./bin/config-nso.js"
+  }
+}
